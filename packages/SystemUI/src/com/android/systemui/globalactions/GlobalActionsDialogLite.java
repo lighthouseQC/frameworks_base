@@ -819,8 +819,7 @@ public class GlobalActionsDialogLite implements DialogInterface.OnDismissListene
     @VisibleForTesting
     protected final class PowerOptionsAction extends SinglePressAction {
         private PowerOptionsAction() {
-            super(com.android.systemui.R.drawable.ic_restart_advanced,
-                    com.android.systemui.R.string.global_action_restart_advanced);
+            super(R.drawable.ic_restart, R.string.global_action_restart);
         }
 
         @Override
