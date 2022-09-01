@@ -33,4 +33,10 @@
 
     <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
     <java-symbol type="bool" name="config_cleanupUnusedFingerprints" />
+
+    <!-- Fingerprint from a certified device against current platform SPL level -->
+    <java-symbol type="string" name="config_certifiedFingerprint" />
+
+    <!-- Fingerprint from stock ROM -->
+    <java-symbol type="string" name="config_stockFingerprint" />
 </resources>
