@@ -39,10 +39,13 @@
 
     <!-- Fingerprint from a certified model -->
     <java-symbol type="string" name="config_certifiedModel" />
-    
+
     <!-- Fingerprint from stock ROM -->
     <java-symbol type="string" name="config_stockFingerprint" />
     
     <!-- For dynamic default font styles -->
     <java-symbol type="string" name="config_bodyFontFamily" />
+
+    <!-- Whether to show WiFi/Hotspot standard -->
+    <java-symbol type="bool" name="config_show_network_standard" />
 </resources>
