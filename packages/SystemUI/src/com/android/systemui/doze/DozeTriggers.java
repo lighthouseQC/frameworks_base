@@ -16,8 +16,6 @@
 
 package com.android.systemui.doze;
 
-import static android.hardware.display.AmbientDisplayConfiguration.DOZE_NO_PROXIMITY_CHECK;
-
 import static android.app.StatusBarManager.SESSION_KEYGUARD;
 
 import static com.android.systemui.doze.DozeMachine.State.DOZE_SUSPEND_TRIGGERS;
